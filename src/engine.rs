@@ -541,7 +541,7 @@ impl BufProxy {
         let id = Id::next();
         BufProxy {
             id,
-            size: size.max(16),
+            size: size.max(64),
             name,
         }
     }
